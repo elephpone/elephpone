@@ -1,37 +1,50 @@
 body {
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 0;
 }
 
 .zf-green {
     color: #68b604;
 }
 
-.btn-success {
-  background-color: #57a900;
-  background-image: -moz-linear-gradient(top, #70d900, #57a900);
-  background-image: -ms-linear-gradient(top, #70d900, #57a900);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70d900), to(#57a900));
-  background-image: -webkit-linear-gradient(top, #70d900, #57a900);
-  background-image: -o-linear-gradient(top, #70d900, #57a900);
-  background-image: linear-gradient(top, #70d900, #57a900);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0);
+.tr-blue {
+    color: #1a9cd7;
 }
 
-.btn-success:hover,
-.btn-success:active,
-.btn-success.active,
-.btn-success.disabled,
-.btn-success[disabled] {
-  background-color: #57a900;
+.btn-primary {
+    background-color: #1a9cd7;
+    background-image: -moz-linear-gradient(top, #0076a2, #1a9cd7);
+    background-image: -ms-linear-gradient(top, #0076a2, #1a9cd7);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0076a2), to(#1a9cd7));
+    background-image: -webkit-linear-gradient(top, #0076a2, #1a9cd7);
+    background-image: -o-linear-gradient(top, #0076a2, #1a9cd7);
+    background-image: linear-gradient(top, #0076a2, #1a9cd7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0076a2', endColorstr='#1a9cd7', GradientType=0);  
 }
 
-.btn-success:active, .btn-success.active {
-  background-color: #57a900;
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  background-color: #1a9cd7;
+}
+
+.btn-primary:active, .btn-primary.active {
+  background-color: #1a9cd7;
 }
 
 div.container a.brand {
-    background: url("../img/zf2-logo.png") no-repeat scroll 0 10px transparent;
+    background: url("../img/tropo_logo.png") no-repeat scroll 0 10px transparent;
     margin-left: 0;
     padding: 8px 20px 12px 40px;
+}
+
+footer {
+    margin: 0;
+    padding: 25px 0 50px 0;
+    background: #101010;
+    color: white;
+    bottom: 0;
 }
