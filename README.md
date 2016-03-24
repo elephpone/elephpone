@@ -32,9 +32,9 @@ Once this is completed, launch the build-in PHP webserver on your preferred port
 php -S 0.0.0.0:9876 -t public/ public/index.php
 ```
 
-And surf to [http://localhost:9876] to see the app running.
+And surf to [http://localhost:9876](http://localhost:9876) to see the app running.
 
-![ElePHPone Web App](http://blob.phpdev.nu/elephpone/elephpone_webapp_screen.png)]
+![ElePHPone Web App](http://blob.phpdev.nu/elephpone/elephpone_webapp_screen.png)
 
 Get a random quote
 ------------------
