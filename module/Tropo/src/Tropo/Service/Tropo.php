@@ -1,7 +1,7 @@
 <?php
 namespace Tropo\Service;
 
-class Tropo
+class Tropo implements \Countable
 {
     protected $recordings;
 
@@ -16,6 +16,11 @@ class Tropo
             'http://blob.phpdev.nu/elephpone/gabriel_somoza.mp3',
             'http://blob.phpdev.nu/elephpone/beth_tucker_long.mp3',
         );
+    }
+
+    public function count()
+    {
+        return count($this->recordings);
     }
 
     public function getRandomRecording()

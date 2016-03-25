@@ -13,11 +13,9 @@ class CallController extends AbstractActionController
         $quote = $tropo->getRandomRecording();
         $view = new JsonModel(
             array (
-                'quote' => array (
-                    'tropo' => array (
-                        'say' => array (
-                            'value' => $quote,
-                        ),
+                'tropo' => array (
+                    'say' => array (
+                        'value' => $quote,
                     ),
                 ),
             )

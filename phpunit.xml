@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    bootstrap="./vendor/autoload.php"
+    stopOnError="true"
+    stopOnFailure="true">
+
+    <testsuites>
+        <testsuite name="Elephpone Test Suite">
+            <directory>./module/Tropo/tests/Tropo</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
