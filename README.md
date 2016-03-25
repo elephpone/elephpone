@@ -58,11 +58,11 @@ Content-Type: application/json; charset=utf-8
 
 Of course, since it's a random quote, the link to the quote audio might be different.
 
-[Tropo](https://www.tropo.com)
-[PHP Community](http://phpcommunity.org)
-[ElePHPone on GitHub](https://github.com/elephpone/elephpone)à
-[Composer](https://getcomposer.org)
-[Zend Framework 2](https://framework.zend.com)
+[Tropo]: https://www.tropo.com
+[PHP Community]: http://phpcommunity.org
+[ElePHPone on GitHub]: https://github.com/elephpone/elephpone
+[Composer]: https://getcomposer.org
+[Zend Framework 2]: https://framework.zend.com
 
 
 Installation notes on Windows
