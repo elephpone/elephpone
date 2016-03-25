@@ -1,6 +1,8 @@
 Elephpone
 =========
 
+[![Build Status](https://status.continuousphp.com/git-hub/elephpone/elephpone?token=4ff99497-58c7-4f59-9525-e7b0d4615e43)](https://continuousphp.com/git-hub/elephpone/elephpone) [![Build Status](https://travis-ci.org/elephpone/elephpone.svg?branch=master)](https://travis-ci.org/elephpone/elephpone)
+
 This application is a Proof of Concept for the usage of [Tropo] online phone services and a nice gimmick for the [PHP Community].
 
 How to get started?
