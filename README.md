@@ -58,8 +58,56 @@ Content-Type: application/json; charset=utf-8
 
 Of course, since it's a random quote, the link to the quote audio might be different.
 
-[Tropo]: https://www.tropo.com
-[PHP Community]: http://phpcommunity.org
-[ElePHPone on GitHub]: https://github.com/elephpone/elephpone
-[Composer]: https://getcomposer.org
-[Zend Framework 2]: https://framework.zend.com
+[Tropo](https://www.tropo.com)
+[PHP Community](http://phpcommunity.org)
+[ElePHPone on GitHub](https://github.com/elephpone/elephpone)à
+[Composer](https://getcomposer.org)
+[Zend Framework 2](https://framework.zend.com)
+
+
+Installation notes on Windows
+-----------------------------
+
+### PHP7 installation
+
+Get PHP7 (VC14 x64 Thread Safe) from http://windows.php.net/download/
+
+Unzip to C:\php
+
+Go to C:\php and copy php.ini-development to php.ini
+
+Open php.ini and uncomment windows extensions and openssl extensions
+
+``` php
+; Directory in which the loadable extensions (modules) reside.
+; On windows:
+extension_dir = "ext"
+...
+; Windows Extensions
+extension=php_openssl.dll
+```
+
+Check the installation is ok
+
+``` bash
+$ php -v
+PHP 7.0.4 (cli) (built: Mar  2 2016 14:42:25) ( ZTS )
+Copyright (c) 1997-2016 The PHP Group
+Zend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies
+```
+
+For futher help, you may check this [PHP5 installation video](https://www.youtube.com/watch?v=6Y6lOHov3Bk), which works fine for PHP7 also.
+
+
+### Composer installation
+
+Get installer from https://getcomposer.org/doc/00-intro.md#installation-windows
+
+Run composer.exe
+
+Go to your project clone and install the dependencies:
+
+``` bash
+cd elephpone
+composer install
+```
