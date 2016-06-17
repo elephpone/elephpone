@@ -12,6 +12,10 @@
             "type": "string"
         }
     },
+    "variables": {
+        "sourcecontrol:repo": "https://github.com/elephpone/elephpone.git",
+        "sourcecontrol:branch": "master"
+    },
     "resources": [
         {
             "apiVersion": "2015-08-01",
@@ -72,8 +76,8 @@
                         "[resourceId('Microsoft.Web/Sites', parameters('siteName'))]"
                     ],
                     "properties": {
-                        "RepoUrl": "https://github.com/SyntaxC4-MSFT/elephpone.git",
-                        "branch": "master"
+                        "RepoUrl": "[variables('sourcecontrol:repo')]",
+                        "branch": "[variables('sourcecontrol:branch')]"
                     }
                 }
             ]
