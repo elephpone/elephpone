@@ -13,7 +13,7 @@
         }
     },
     "variables": {
-        "sourcecontrol:repo": "https://github.com/SyntaxC4-MSFT/elephpone.git",
+        "sourcecontrol:repo": "https://github.com/elephpone/elephpone.git",
         "sourcecontrol:branch": "master"
     },
     "resources": [
