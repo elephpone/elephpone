@@ -8,6 +8,9 @@ This application is a Proof of Concept for the usage of [Tropo] online phone ser
 How to get started?
 -------------------
 
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Felephpone%2Felephpone%2Fmaster%2Fazuredeploy.json)
+
+
 First make sure you clone [ElePHPone on GitHub] into your local working environment.
 
 ```
