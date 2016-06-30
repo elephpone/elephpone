@@ -77,7 +77,8 @@
                     ],
                     "properties": {
                         "RepoUrl": "[variables('sourcecontrol:repo')]",
-                        "branch": "[variables('sourcecontrol:branch')]"
+                        "branch": "[variables('sourcecontrol:branch')]",
+                        "IsManualIntegration": true
                     }
                 }
             ]
